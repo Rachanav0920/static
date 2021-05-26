@@ -20,3 +20,6 @@ def demo3(request):
 
 def demo5(request):
     return render(request,"Sample2.html")   
+
+def sample3(request):
+    return render(request,"sample3.html")    
